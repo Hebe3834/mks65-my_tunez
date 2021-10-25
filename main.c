@@ -173,7 +173,7 @@ int main(){
     printf("\tsong not found");
 
   printf("\nlooking for [pearl jam: time]\n");
-  struct song_node * s11 = find_song_lib(library, "pearl jam", "alive");
+  struct song_node * s11 = find_song_lib(library, "pearl jam", "time");
   if(s11){
     printf("\tsong found! ");
     print_node(s11);
